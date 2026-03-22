@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>📊 Statistics Dashboard</h2>
+
+<!-- GENERAL -->
+<h3 id="general">General</h3>
+<p><strong>Total items:</strong> {{ stats.total_items}}</p>
+<p><strong>Average size:</strong> {{ stats.avg_size|round(2) }} ml</p>
+<p><strong>Total size:</strong> {{ stats.plastics_size }} ml</p>
+
+<hr>
+<br>
+
+<!-- PLASTIC TYPE -->
+<h3>🧴 Plastic Type</h3>
+<ul>
+{% for type, count in stats.plastic_type.items() %}
+    <li>{{ type }} : {{ count }}</li>
+{% endfor %}
+</ul>
+<br>
+
+<!-- SIZE SUMMARY -->
+<h3>⚖️ Size Distribution</h3>
+<ul>
+{% for size, count in stats.size_summary.items() %}
+    <li>{{ size }} : {{ count }}</li>
+{% endfor %}
+</ul>
+<br>
+
+<!-- RECYCLABILITY -->
+<h3>♻️ Recyclability</h3>
+<ul>
+{% for level, count in stats.recycle_summary.items() %}
+    <li>{{ level }} : {{ count }}</li>
+{% endfor %}
+</ul>
+<br>
+
+<!-- ENVIRONMENT -->
+ <div class="card">
+    <h3>🌍 Environmental Impact</h3>
+    <p><strong>Total weight:</strong> {{ stats.environment.total_weight }} kg</p>
+    <p><strong>CO2 saved:</strong> {{ stats.environment.co2_saved }} kg</p>
+</div>
+
+{% endblock %}

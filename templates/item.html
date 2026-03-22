@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Item Details</h2>
+
+{% if item %}
+<p>ID: {{ item.id }}</p>
+<p>Type: {{ item.plastic_type }}</p>
+<p>Recyclability: {{ item.recyclability() }}</p>
+<p>Quantity: {{ item.quantity }}</p>
+<p>Size: {{ item.size }} (ml)</p>
+<p>Sort date: {{ item.sort_date.strftime('%Y-%m-%d') }}</p>
+<p>Day & Time: {{item.timestamp.strftime('%Y-%m-%d %H:%M:%S')}}</p>
+{% else %}
+<p>Item not found</p>
+{% endif %}
+
+{% endblock %}

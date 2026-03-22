@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Update Item</h2>
+
+<form method="POST">
+    <label>Plastic Type:</label>
+    <select name="plastic_type">
+        {% for key, value in plastic_type.items() %}
+            <option value="{{ value }}" {% if value == item.plastic_type %}selected{% endif %}>
+                {{ value }}
+            </option>
+        {% endfor %}
+    </select><br>
+
+    <label>Size (ml):</label>
+    <input type="number" name="size"><br>
+    
+    <label>Date:</label>
+    <input type="date" name="sort_date"><br>
+
+    <button id="add-btn" type="submit">Update</button>
+
+</form>
+
+{% endblock %}

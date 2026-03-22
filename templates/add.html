@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Add Item</h2>
+
+<form method="POST">
+    <label>Plastic Type:</label>
+    <select name="plastic_type">
+        {% for key, value in plastic_type.items() %}
+            <option value="{{ value }}">{{ key}} - {{ value }}</option>
+        {% endfor %}
+    </select><br>
+
+    <label>Size (ml):</label>
+    <input type="number" name="size"><br>
+
+    <label>Date:</label>
+    <input type="date" name="sort_date"><br>
+
+    <button id="add-btn" type="submit">Add</button>
+
+</form>
+
+{% endblock %}

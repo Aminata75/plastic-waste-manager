@@ -1,0 +1,106 @@
+[
+    {
+        "item_id": 1,
+        "plastic_type": "HDPE",
+        "quantity": 1,
+        "size": 666,
+        "sort_date": "2026-03-17",
+        "timestamp": "2026-03-21 14:16:25"
+    },
+    {
+        "item_id": 2,
+        "plastic_type": "PS",
+        "quantity": 1,
+        "size": 123,
+        "sort_date": "2026-03-18",
+        "timestamp": "2026-03-21 15:20:35"
+    },
+    {
+        "item_id": 3,
+        "plastic_type": "LDPE",
+        "quantity": 1,
+        "size": 199,
+        "sort_date": "2026-03-11",
+        "timestamp": "2026-03-21 15:20:49"
+    },
+    {
+        "item_id": 4,
+        "plastic_type": "OTHER",
+        "quantity": 1,
+        "size": 300,
+        "sort_date": "2026-03-21",
+        "timestamp": "2026-03-21 15:50:32"
+    },
+    {
+        "item_id": 5,
+        "plastic_type": "PVC",
+        "quantity": 1,
+        "size": 450,
+        "sort_date": "2026-03-21",
+        "timestamp": "2026-03-21 15:51:19"
+    },
+    {
+        "item_id": 6,
+        "plastic_type": "HDPE",
+        "quantity": 1,
+        "size": 69,
+        "sort_date": "2026-03-10",
+        "timestamp": "2026-03-21 15:51:34"
+    },
+    {
+        "item_id": 7,
+        "plastic_type": "HDPE",
+        "quantity": 1,
+        "size": 3889,
+        "sort_date": "2026-03-20",
+        "timestamp": "2026-03-21 23:22:24"
+    },
+    {
+        "item_id": 8,
+        "plastic_type": "PP",
+        "quantity": 1,
+        "size": 399,
+        "sort_date": "2026-03-24",
+        "timestamp": "2026-03-21 23:36:21"
+    },
+    {
+        "item_id": 9,
+        "plastic_type": "LDPE",
+        "quantity": 1,
+        "size": 444,
+        "sort_date": "2026-03-24",
+        "timestamp": "2026-03-21 23:36:47"
+    },
+    {
+        "item_id": 10,
+        "plastic_type": "PET",
+        "quantity": 1,
+        "size": 111,
+        "sort_date": "2026-03-21",
+        "timestamp": "2026-03-21 23:38:13"
+    },
+    {
+        "item_id": 11,
+        "plastic_type": "PET",
+        "quantity": 1,
+        "size": 222,
+        "sort_date": "2026-03-21",
+        "timestamp": "2026-03-21 23:41:19"
+    },
+    {
+        "item_id": 12,
+        "plastic_type": "HDPE",
+        "quantity": 1,
+        "size": 65,
+        "sort_date": "2026-03-21",
+        "timestamp": "2026-03-21 23:43:47"
+    },
+    {
+        "item_id": 13,
+        "plastic_type": "HDPE",
+        "quantity": 1,
+        "size": 450,
+        "sort_date": "2026-03-28",
+        "timestamp": "2026-03-22 13:16:53"
+    }
+]
