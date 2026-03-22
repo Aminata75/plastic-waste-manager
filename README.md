@@ -42,7 +42,7 @@ cd plastic-waste-manager
 		2.Install dependencies:
 pip install flask
 
-	3.Run the application:
+		3.Run the application:
 python app.py
 
 		4.Open in browser:
