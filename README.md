@@ -35,32 +35,36 @@ Plastic Waste Manager is a full-stack web application built with Python and Flas
 
 ## ⚙️How to Run the Application
 
-1. Clone the repository:
-	git clone <your-repo-link>
-	cd plastic-waste-manager
+	1. Clone the repository:
 
-2. Install dependencies:
-	pip install flask
+	•	git clone <your-repo-link>
+	•	cd plastic-waste-manager
 
-3. Run the application:
-	python app.py
+	2. Install dependencies:
 
-4. Open in browser:
-	http://127.0.0.1:5000/
+	•	pip install flask
+
+	3. Run the application:
+
+	•	python app.py
+
+	4. Open in browser:
+
+	•	http://127.0.0.1:5000/
 
 
 
 ## 📂Project Structure
 
-├ app.py 
-├ main.py 
-├ PlasticWasteManager.py 
-├ UI_helper.py 
-├ utils.py 
-├ inventory.json 
-├ templates/ 
-├ static/ 
-┕ .gitignore 
+	├ app.py 
+	├ main.py 
+	├ PlasticWasteManager.py 
+	├ UI_helper.py 
+	├ utils.py 
+	├ inventory.json 
+	├ templates/ 
+	├ static/ 
+	┕ .gitignore 
 
 
 ## ⚠️ Challenges & Solutions
